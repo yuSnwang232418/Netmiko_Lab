@@ -1,0 +1,27 @@
+[
+  {
+    "host": "192.168.57.5",
+    "port": "22",
+    "username": "wyx",
+    "password": "wyx",
+    "device_type": "cisco_ios",
+    "secret": "",
+    "verbose": "true"
+  },
+  {
+    "host": "192.168.57.6",
+    "port": "22",
+    "password": "wyx",
+    "device_type": "cisco_ios",
+    "secret": "",
+    "verbose": "true"
+  },
+  {
+    "host": "192.168.57.7",
+    "port": "22",
+    "username": "wyx",
+    "device_type": "cisco_ios",
+    "secret": "",
+    "verbose": "true"
+  }
+]
