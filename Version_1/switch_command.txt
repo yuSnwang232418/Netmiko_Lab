@@ -1,0 +1,3 @@
+show interface brief
+show mac address-table
+show vlan
