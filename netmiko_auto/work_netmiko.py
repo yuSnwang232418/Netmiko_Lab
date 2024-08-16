@@ -6,7 +6,7 @@ from datetime import datetime
 
 def func(my_device):
     connection = ConnectHandler(**my_device)
-    print(f'Connecting to {my_device['host']}')
+    print(f"Connecting to {my_device['host']}")
 
     # Get the hostname of device
     prompt = connection.find_prompt()
@@ -28,7 +28,7 @@ def func(my_device):
         print(f'Backup of {hostname} completed successfully')
 
     # Stop the connection
-    print(f'Disconnecting from {my_device['host']}')
+    print(f"Disconnecting from {my_device['host']}")
     connection.disconnect()
 
 

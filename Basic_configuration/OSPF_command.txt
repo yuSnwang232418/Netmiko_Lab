@@ -1,0 +1,5 @@
+configure terminal
+no router ospf 1
+router ospf 1
+network 192.168.57.0 0.0.0.255 area 0
+end
