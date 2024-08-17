@@ -17,6 +17,7 @@ def connect_to_device(cur_device, commands):
         time.sleep(60)
         print(connection.send_command('show ip ospf nei'))
         connection.exit_enable_mode()
+        connection.disconnect()
     except netmiko.NetmikoAuthenticationException:
         print(f"Warning: The username or password of the {cur_device['host']} might be wrong")
     except netmiko.NetmikoTimeoutException:

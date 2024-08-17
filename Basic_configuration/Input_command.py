@@ -2,7 +2,7 @@ import sys
 
 
 def get_command():
-    if len(sys.argv) < 2:
+    if len(sys.argv) < 3:
         print("Following the format: Config.py <command_name>.txt Device_list.txt")
         sys.exit()
     # Input_command = sys.argv
